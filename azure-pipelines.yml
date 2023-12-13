@@ -6,8 +6,8 @@
 trigger:
 - master
 
-pool:
-  vmImage: 'windows-latest'
+pool: 
+  name: az400m03l03a-pool
 
 variables:
   solution: '**/*.sln'
