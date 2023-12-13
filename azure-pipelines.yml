@@ -41,4 +41,4 @@ steps:
     azureSubscription: 'Azure subscription 1(5c23be89-ce86-4d87-9679-0ab2ec6d9838)'
     appType: 'webApp'
     WebAppName: 'khairulizaniWebApp'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    packageForLinux: '$(build.artifactStagingDirectory)\WebApp.zip'
